@@ -1,0 +1,30 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featureditem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 3%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: #4A8963;
+    background-color:#F2EEE5 ;
+    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+-webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+-moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+}
+.featuredtitle{
+    font-size: 24px;
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+

@@ -1,0 +1,56 @@
+.hadithlisttitle{
+  color: #4A8963;
+  font-size: 28px;
+  font-weight: 600;
+   margin-left: 50px;  
+margin-bottom: 50px;
+}
+.hadithlist{
+  margin-top: 50px;
+}
+.searchcontainer{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 450px;
+  height: 70px;
+  background: #F2EEE5;
+  border-radius: 12px;
+  
+}
+.searchinput{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #F2EEE5;
+  font-size: 19px;
+ margin-left: 5px;
+}
+.hadithlistcontnt{
+  
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-weight: 600;
+ height: auto !important;
+}
+
+.MuiDataGrid-cell{
+  height: auto !important;
+}
+  
+  .adminlistedit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #4A8963;
+    color: #F2EEE5;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.adminlistdelete{
+    color: red;
+    cursor: pointer;
+}
+  
+  

@@ -1,0 +1,59 @@
+.newAdmin{
+ 
+    margin-top: 10px;
+   
+}
+.hadithtitel{
+    color: #4A8963;
+   font-size: 28px;
+   font-weight: 600;
+    margin-left: 50px;  
+margin-top: 30px;
+}
+.newadminform{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 50px;
+    width: 600px;
+    height: 100vh;
+    background-color: #F2EEE5;
+}
+.newadminitem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.newadminitem>label{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(144, 139, 139);
+}
+.newadminitem>input{
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+   /* border: 1px solid grey; */
+}
+.newAdminSelect{
+    height: 40px;
+    border-radius: 5px; 
+}
+.newadminbutton{
+    width: 150px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    background-color: #4A8963;
+    border-radius: 5px;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 16px;
+   margin-top: 20px;
+   /* margin-right: auto; */
+   margin-left: 200px;
+}

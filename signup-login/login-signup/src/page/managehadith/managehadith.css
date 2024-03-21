@@ -1,0 +1,32 @@
+.hadithtitlecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.hadithlistcontnt{
+   
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-weight: 600;
+ height: auto !important;
+}
+
+.MuiDataGrid-cell{
+  height: auto !important;
+}
+  
+  .adminlistedit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #4A8963;
+    color: #F2EEE5;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.adminlistdelete{
+    color: red;
+    cursor: pointer;
+}
+  
+  

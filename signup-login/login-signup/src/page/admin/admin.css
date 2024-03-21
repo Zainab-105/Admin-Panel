@@ -1,0 +1,139 @@
+.admin{
+    flex: 4;
+    padding: 20px;
+}
+.admintitlecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adminaddbutton{
+    width: 100px;
+    height: 45px;
+    border: none;
+    padding: 5px;
+    background-color: #4A8963;
+    border-radius: 5px;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 16px;
+}
+.admintitle{
+    color: #4A8963;
+}
+.admincontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.adminshow{
+    flex: 1;
+    padding: 20px;
+    background-color: #F2EEE5;
+    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+}
+.adminupdate{
+    flex: 2;
+    padding: 20px;
+    background-color: #F2EEE5;
+    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    margin-left: 20px;
+}
+.adminshowtop{
+    display: flex;
+    align-items: center;
+}
+.adminshowimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.adminshowtoptitle{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.adminshowbottom{
+    margin-top: 20px;
+    
+}
+.adminshowtitle{
+    font-style: 24px;
+    font-weight: 600;
+   color: rgb(129, 119, 119);
+}
+.adminshowinfo{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    color: #444;
+}
+.adminshowicon{
+    font-style: 16px !important;
+}
+.adminshowinfotitle{
+    margin-left: 10px;
+}
+.adminupdatetitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.adminupdateform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.adminupdateitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.adminupdateitem>label{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.adminupdateinput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid gray;
+    padding: 12px;
+}
+.adminupdateimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.adminupdateright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.file{
+    cursor: pointer;
+}
+.adminupdatebutton{
+    width: 150px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    background-color: #4A8963;
+    border-radius: 5px;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+.adminupdateupload{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}

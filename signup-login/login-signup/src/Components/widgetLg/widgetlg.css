@@ -1,0 +1,31 @@
+.widgetlg{
+    flex: 2;
+    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    padding: 20px;
+    margin-right: 20px;
+    background: #F2EEE5;
+    color: #4A8963;
+}
+.widgetlgtitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetlgtable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetlgth{
+    text-align: left;
+    font-size: 20px;
+}
+ /* .widgetlghadith{
+    display: flex; 
+    text-align: center;
+    font-weight: 600;
+}  */
+.widgetlgtr{
+    text-align: left;
+    font-size: 20px;
+}
