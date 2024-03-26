@@ -1,8 +1,11 @@
 /*  */
+
   .link{
     text-decoration: none;
     color: inherit;
-  }.container {
+  }
+
+  .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 10px; 
