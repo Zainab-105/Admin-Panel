@@ -1,7 +1,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin-right: auto;
+   margin-left: auto;
     margin-top: 200px;
     background: #fff;
     padding-bottom: 30px;
@@ -17,6 +18,7 @@ margin-top: 30px;
 .text {
     color: #4A8963;
     font-size: 42px;
+   
     font-weight: 700;
 }
 .underline{
@@ -26,7 +28,7 @@ margin-top: 30px;
     border-radius: 9px;
 }
 .inputs{
-    margin-top: 55px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     gap: 25px;

@@ -1,48 +1,54 @@
 .newAdmin{
- 
     margin-top: 10px;
-   
 }
+
 .hadithtitel{
     color: #4A8963;
-   font-size: 28px;
-   font-weight: 600;
+    font-size: 28px;
+    font-weight: 600;
     margin-left: 50px;  
-margin-top: 30px;
+    margin-top: 30px;
 }
+
 .newadminform{
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     padding-top: 50px;
-    width: 600px;
-    height: 100vh;
+    width: 80%; /* Adjusted width to be a percentage */
+    max-width: 600px; /* Added max-width for better responsiveness */
+    height: auto; /* Changed height to auto for content-based height */
     background-color: #F2EEE5;
 }
+
 .newadminitem{
-    width: 400px;
+    width: 80%; /* Adjusted width to be a percentage */
+    max-width: 400px; /* Added max-width for better responsiveness */
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .newadminitem>label{
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: 600;
     color: rgb(144, 139, 139);
 }
+
 .newadminitem>input{
-    height: 20px;
+    height: 40px; /* Increased height for better touch experience on mobile */
     padding: 10px;
     border-radius: 5px;
-   /* border: 1px solid grey; */
 }
+
 .newAdminSelect{
     height: 40px;
     border-radius: 5px; 
 }
+
 .newadminbutton{
     width: 150px;
     height: 40px;
@@ -53,7 +59,38 @@ margin-top: 30px;
     cursor: pointer;
     color: antiquewhite;
     font-size: 16px;
-   margin-top: 20px;
-   /* margin-right: auto; */
-   margin-left: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .newadminform {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+
+  .newadminitem {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+
+  .newadminbutton {
+    margin-left: auto; /* Center the button for smaller screens */
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hadithtitel {
+    font-size: 24px; /* Decreased font size for smaller screens */
+  }
+
+  .newadminitem > label {
+    font-size: 20px; /* Decreased font size for smaller screens */
+  }
+
+  .newadminbutton {
+    width: 120px; /* Decreased button width for smaller screens */
+  }
 }

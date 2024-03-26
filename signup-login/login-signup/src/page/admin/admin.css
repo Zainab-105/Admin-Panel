@@ -1,13 +1,17 @@
-.admin{
-    flex: 4;
+.admin {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
 }
-.admintitlecontainer{
+
+.admintitlecontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
-.adminaddbutton{
+
+.adminaddbutton {
     width: 100px;
     height: 45px;
     border: none;
@@ -18,108 +22,103 @@
     color: antiquewhite;
     font-size: 16px;
 }
-.admintitle{
+
+.admintitle {
     color: #4A8963;
+    font-size: 24px;
 }
-.admincontainer{
+
+.admincontainer {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.adminshow,
+.adminupdate {
+    padding: 20px;
+    background-color: #F2EEE5;
+    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+}
+
+.adminupdate {
     margin-top: 20px;
 }
-.adminshow{
-    flex: 1;
-    padding: 20px;
-    background-color: #F2EEE5;
-    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
-    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
-    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
-}
-.adminupdate{
-    flex: 2;
-    padding: 20px;
-    background-color: #F2EEE5;
-    box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
-    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
-    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
-    margin-left: 20px;
-}
-.adminshowtop{
+
+.adminshowtop {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
-.adminshowimg{
+
+.adminshowimg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
-.adminshowtoptitle{
+
+.adminshowtoptitle {
     display: flex;
     flex-direction: column;
     font-weight: 600;
-    margin-left: 20px;
 }
-.adminshowbottom{
+
+.adminshowbottom {
     margin-top: 20px;
-    
 }
-.adminshowtitle{
-    font-style: 24px;
-    font-weight: 600;
-   color: rgb(129, 119, 119);
-}
-.adminshowinfo{
-    display: flex;
-    align-items: center;
-    margin: 30px 0px;
-    color: #444;
-}
-.adminshowicon{
-    font-style: 16px !important;
-}
-.adminshowinfotitle{
-    margin-left: 10px;
-}
-.adminupdatetitle{
+
+.adminshowtitle {
     font-size: 24px;
     font-weight: 600;
+    color: rgb(129, 119, 119);
 }
-.adminupdateform{
+
+.adminshowinfo {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+    color: #444;
 }
-.adminupdateitem{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-.adminupdateitem>label{
-    margin-bottom: 5px;
+
+.adminshowinfotitle {
     font-size: 18px;
 }
-.adminupdateinput{
+
+.adminupdateform {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.adminupdateitem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.adminupdateitem > label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.adminupdateinput {
     border: none;
-    width: 250px;
     border-bottom: 1px solid gray;
     padding: 12px;
 }
-.adminupdateimg{
-    width: 100px;
-    height: 100px;
+
+.adminupdateimg {
+    max-width: 200px;
+    height: auto;
     border-radius: 10px;
     object-fit: cover;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 0;
 }
-.adminupdateright{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.file{
-    cursor: pointer;
-}
-.adminupdatebutton{
+
+.adminupdatebutton {
     width: 150px;
     height: 40px;
     border: none;
@@ -131,9 +130,13 @@
     font-size: 16px;
 }
 
-.adminupdateupload{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    margin-left: 10px;
+@media screen and (max-width: 768px) {
+    .adminshow,
+    .adminupdate {
+        padding: 10px;
+    }
+
+    .adminupdateitem {
+        flex-basis: 100%;
+    }
 }

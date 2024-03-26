@@ -6,7 +6,12 @@ import email from '../Assets/email-icon.png';
 import password from '../Assets/password-icon.png';
 
 const LoginSignup = () => {
-  const [action, setAction] = useState("Sign Up");  // Corrected "sign Up" to "Sign Up"
+  const [action, setAction] = useState("Sign Up");
+
+  // Function to handle input change and change text color
+  const handleInputChange = (event) => {
+    event.target.style.color = '#000'; // Change text color to black
+  };
 
   return (
     <div className='container'>
@@ -17,15 +22,15 @@ const LoginSignup = () => {
       <div className="inputs">
         {action === "Login" ? <div></div> : <div className="input">
           <img src={userIcon} alt="" />
-          <input type="text" placeholder='Name' />
+          <input type="text" placeholder='Name' onChange={handleInputChange} />
         </div>}
         <div className="input">
           <img src={email} alt="" />
-          <input type="email" placeholder='Email Id' />
+          <input type="email" placeholder='Email Id' onChange={handleInputChange} />
         </div>
         <div className="input">
           <img src={password} alt="" />
-          <input type="password" placeholder='password' />
+          <input type="password" placeholder='password' onChange={handleInputChange} />
         </div>
       </div>
       {action === "Sign Up" ? <div></div> : <div className="forgot-password">Forget Password? <span>Click Here</span></div>}

@@ -14,29 +14,29 @@ export default function Hadithlist() {
    
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 70 },
-        { field: 'title', headerName: 'Title', width: 90 },
-        { field: 'content', headerName: 'Hadith', width: 150, renderCell: (params) => {
+        { field: 'id', headerName: 'ID', },
+        { field: 'title', headerName: 'Title',},
+        { field: 'content', headerName: 'Hadith', renderCell: (params) => {
           return (
             <div className='hadithlistcontnt'>
               {params.row.content}
             </div>
           )
         } },
-        { field: 'translation', headerName: 'Translation', width: 150, renderCell: (params) => {
+        { field: 'translation', headerName: 'Translation',  renderCell: (params) => {
           return (
             <div className='hadithlisttrans'>
               {params.row.translation}
             </div>
           )
         } },
-        { field: 'narrator', headerName: 'Narrators', width: 90 },
-        { field: 'source', headerName: 'Source', width: 90 },
-        { field: 'category', headerName: 'Category', width: 90 },
+        { field: 'narrator', headerName: 'Narrators'},
+        { field: 'source', headerName: 'Source' },
+        { field: 'category', headerName: 'Category'},
         {
             field: 'action',
             headerName: 'Action',
-            width: 60,
+           
             renderCell: (params) => {
                 return (
                     <>

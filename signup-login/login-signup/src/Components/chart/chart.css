@@ -1,13 +1,38 @@
-.chart{
-    margin: 50px;
-    padding: 20px;
+.chart {
+    margin: 5%;
+    padding: 5%;
     background: #F2EEE5;
     box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
--webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
--moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -webkit-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
+    -moz-box-shadow: 12px 10px 16px -6px rgba(74,137,99,0.71);
 }
-.charttitle{
-    margin-bottom: 20px;
+
+.charttitle {
+    margin-bottom: 10px;
     color: #4A8963;
-   font-size: 24px;
+    font-size: 18px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .chart {
+        margin: 3%;
+        padding: 3%;
+    }
+
+    .charttitle {
+        font-size: 16px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+    .chart {
+        margin: 2%;
+        padding: 2%;
+    }
+
+    .charttitle {
+        font-size: 14px;
+    }
 }

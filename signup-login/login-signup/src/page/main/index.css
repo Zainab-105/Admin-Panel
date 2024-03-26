@@ -2,3 +2,11 @@
     display: flex;
     margin: 20px;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .homeWidgets {
+        flex-direction: column; /* Change layout to column for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+}

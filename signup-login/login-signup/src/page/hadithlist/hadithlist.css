@@ -1,56 +1,93 @@
-.hadithlisttitle{
+.hadithlisttitle {
   color: #4A8963;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
-   margin-left: 50px;  
-margin-bottom: 50px;
+  margin-left: 20px;  
+  margin-bottom: 30px;
 }
-.hadithlist{
-  margin-top: 50px;
+
+.hadithlist {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.searchcontainer{
+
+.searchcontainer {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 450px;
-  height: 70px;
+  width: 90%;
+  max-width: 500px;
+  height: 50px;
   background: #F2EEE5;
   border-radius: 12px;
-  
+  margin-bottom: 20px;
 }
-.searchinput{
-  height: 50px;
-  width: 400px;
+
+.searchinput {
+  flex: 1;
+  height: 100%;
+  width: 100%;
   background: transparent;
   border: none;
   outline: none;
-  color: #F2EEE5;
-  font-size: 19px;
- margin-left: 5px;
-}
-.hadithlistcontnt{
-  
-  font-family: 'Noto Sans Arabic', sans-serif;
-  font-weight: 600;
- height: auto !important;
+  color: #4A8963;
+  font-size: 16px;
+  padding-left: 10px;
 }
 
-.MuiDataGrid-cell{
+.hadithlistcontnt {
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.MuiDataGrid-cell {
   height: auto !important;
+  padding: 10px;
 }
-  
-  .adminlistedit{
-    border: none;
-    border-radius: 10px;
-    padding: 5px 10px;
-    background-color: #4A8963;
-    color: #F2EEE5;
-    cursor: pointer;
-    margin-right: 20px;
+
+.adminlistedit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #4A8963;
+  color: #F2EEE5;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
 }
-.adminlistdelete{
-    color: red;
-    cursor: pointer;
+
+.adminlistedit:hover {
+  background-color: #3B7154;
 }
-  
-  
+
+.adminlistdelete {
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .searchcontainer {
+      width: 100%;
+  }
+
+  .searchinput {
+      font-size: 14px;
+  }
+
+  .hadithlisttitle {
+      font-size: 20px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+  }
+
+  .adminlistedit,
+  .adminlistdelete {
+      font-size: 12px;
+  }
+}
